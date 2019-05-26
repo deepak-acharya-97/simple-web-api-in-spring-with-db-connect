@@ -17,5 +17,10 @@ public class Employee {
 	public Employee(String name, String role) {
 		this.name = name;
 		this.role = role;
-	}	
+	}
+	
+	@Override
+	public String toString() {
+		return this.name;
+	}
 }

@@ -13,6 +13,7 @@ import lombok.extern.slf4j.Slf4j;
 @Configuration
 @Slf4j
 public class LoadDatabase {
+	
 	private static final Logger log = LoggerFactory.getLogger(LoadDatabase.class);
 	
 	@Bean
